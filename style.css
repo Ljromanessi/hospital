@@ -14,3 +14,10 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+#izquierda {
+    border-left: 0px;
+}
+#derecha{
+    border-right: 0px;
+}
