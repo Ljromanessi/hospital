@@ -75,12 +75,30 @@ ul {
     gap: 10px;
 }
 
+.contacto{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .suscripcion{
+    position: absolute;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    top: 30%;
+    left: 75%;
+    width: 200px;
+    height: 400px;
+    background-color: rgba(255,255 , 255, 0.8);
+    z-index: 1;
 }
 
 footer{
     display: flex;
     justify-content: center;
+    background: rgb(56, 55, 55);
+    color: white;
 }
