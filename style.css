@@ -35,7 +35,7 @@ ul {
 
 .presentacion{
     position:absolute;
-    top:50%;
+    top:calc(50% - 100px);
     left: 5%;
     z-index: 1;
 }
@@ -58,6 +58,7 @@ ul {
 .links-interes {
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 10px;
 }
 
