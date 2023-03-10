@@ -1,11 +1,9 @@
+/* General*/
 *{
     font-family: 'Raleway', sans-serif;
 } 
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 ul {
     display:flex ;
@@ -23,7 +21,22 @@ ul {
     margin: 10px;
     padding: 10px;
 }
+/* header*/
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display:flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.sub-logo *{
+    margin: 0;
+}
+
+/*Precentacion y video*/
 .video-presentacion{
     position: relative;
     top: 0;
@@ -33,27 +46,22 @@ ul {
 
 }
 
+.degradado{
+    background: linear-gradient(to right, rgb(255, 255, 255), #00000000 );
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
 .presentacion{
     position:absolute;
     top:calc(50% - 100px);
     left: 5%;
-    z-index: 2;
+    z-index: 3;
 }
 
-.logo{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.sub-logo{
-    padding: 0;
-    margin: 0;
-}
-
-.sub-logo *{
-    padding: 0;
-    margin: 0;
-}
 
 .links-interes {
     display: flex;
@@ -84,6 +92,7 @@ ul {
 .noticias{
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 10px;
 }
 
@@ -106,6 +115,7 @@ ul {
     height: 400px;
     background-color: rgba(255,255 , 255, 0.8);
     z-index: 1;
+    text-align: center;
 }
 
 .contacto-pie{
