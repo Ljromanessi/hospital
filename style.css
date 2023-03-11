@@ -176,6 +176,7 @@ header {
     color: #228f58;
 }
 
+
 .interes h2{
     font-family: 'Raleway';
     font-style: normal;
@@ -183,17 +184,6 @@ header {
     font-size: 28px;
     line-height: 33px;
     color: #228f58;
-}
-
-.interes h3{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 33px;
-    text-align: center; 
-    color: #FFFFFF;
-     
 }
 
 .interes p{
@@ -210,6 +200,52 @@ header {
     text-align: center;
     gap: 68px;
 }
+
+.links-noticias{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.253);
+    width: 358px;
+    height: 415px;
+}
+.links-noticias p{
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.links-noticias h3{
+    position: absolute;
+    z-index: 3;
+    top: 30%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center; 
+    color: #FFFFFF;
+    
+}
+
+.links-noticias img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
 
 .contacto{
     position: relative;
@@ -228,13 +264,13 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    top: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     left: 75%;
-    width: 200px;
-    height: 400px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
     z-index: 1;
     text-align: center;
+    padding: 70px;
 }
 
 .suscripcion h2{
