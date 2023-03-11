@@ -3,17 +3,12 @@
     font-family: 'Raleway', sans-serif;
 } 
 
-
-
-
-.boton{
-    border: 0px;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #dc4b57;
-    margin: 10px;
-    padding: 10px;
+body{
+    margin: 0;
 }
+
+
+
 /* header*/
 
 header {
@@ -26,7 +21,7 @@ header {
     gap: 5px;
 }
 .logo img{
-width: 60px;
+    width: 60px;
 }
 .sub-logo h2{
     font-family: 'Raleway';
@@ -77,7 +72,7 @@ width: 60px;
 }
 
 .barra ul li i{
-    font-size: 22px;
+    font-size: 22px ;
 }
 
 /*Precentacion y video*/
@@ -87,7 +82,7 @@ width: 60px;
     left: 0;
     width: 100%;
     z-index: 1;
-
+    
 }
 
 #rojito{
@@ -110,6 +105,29 @@ width: 60px;
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
+}
+
+.presentacion p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #228F58;
+}
+
+.presentacion button{
+    border: 0px;
+    border-radius: 9px;
+    background-color: #dc4b57;
+    width: 420px;
+    height: 63px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
 
 .presentacion{
@@ -145,13 +163,45 @@ width: 60px;
 
 .interes a{
     text-decoration: none;
-    color:red;
-    font-weight: bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #dc4b57;
 }
 
 .interes i{
     font-size: 44px;
     color: #228f58;
+}
+
+.interes h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #228f58;
+}
+
+.interes h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center; 
+    color: #FFFFFF;
+     
+}
+
+.interes p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
 }
 
 .noticias{
@@ -163,10 +213,14 @@ width: 60px;
 
 .contacto{
     position: relative;
+}
+
+.fondo-contacto{
     width: 100%;
     top: 0;
     left: 0;
     z-index: -1;
+
 }
 
 .suscripcion{
@@ -178,15 +232,71 @@ width: 60px;
     left: 75%;
     width: 200px;
     height: 400px;
-    background-color: rgba(255,255 , 255, 0.8);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
     z-index: 1;
     text-align: center;
+}
+
+.suscripcion h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #228F58;
+}
+
+.suscripcion p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #228F58;
+}
+
+.suscripcion label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #228F58;
+}
+
+.suscripcion input{
+    width: 312px;
+    height: 53px; 
+    background: #FFFFFF;
+    border: 1px solid #228F58;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.suscripcion button{
+    width: 312px;
+    height: 53px;
+    background: #DC4B57;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
 }
 
 .contacto-pie{
     display: flex;
     justify-content: center;
     gap: 15px;
+    font-size: 22px ;
 }
 
 .pie{
@@ -196,4 +306,13 @@ width: 60px;
     padding-top: 20px;
     background: rgb(56, 55, 55);
     color: white;
+}
+
+.pie p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
