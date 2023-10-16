@@ -211,17 +211,18 @@ header {
     flex-direction: column;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.253);
     width: 358px;
-    height: 415px;
+    height: 500px;
 }
 .links-noticias p{
     position: absolute;
     z-index: 2;
-    top: 55%;
+    top: 50%;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 150%;
+    padding: 10px;
 }
 
 .links-noticias h3{
@@ -259,16 +260,26 @@ header {
 
 }
 
+.fondo-contacto img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
 .suscripcion{
     position: absolute;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
     top: 50%;
     transform: translateY(-50%);
-    left: 75%;
+    left: 40%;
+    width: 350px;
+    height: 300px;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.5) 100%);
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     padding: 70px;
 }
@@ -280,6 +291,7 @@ header {
     font-size: 32px;
     line-height: 38px;
     text-align: center;
+    margin: 0;
     color: #228F58;
 }
 
@@ -290,6 +302,7 @@ header {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
+    margin: 0;
     color: #228F58;
 }
 
@@ -304,8 +317,9 @@ header {
 }
 
 .suscripcion input{
+    flex-shrink: 0;
     width: 312px;
-    height: 53px; 
+    height: 40px; 
     background: #FFFFFF;
     border: 1px solid #228F58;
     border-radius: 4px;
@@ -314,6 +328,7 @@ header {
 }
 
 .suscripcion button{
+    flex-shrink: 0;
     width: 312px;
     height: 53px;
     background: #DC4B57;
